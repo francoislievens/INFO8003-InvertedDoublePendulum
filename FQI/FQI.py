@@ -9,7 +9,7 @@ import Utils
 
 def FQI(name='Test_FQI_A',
         device=torch.device('cuda:0'),
-        batch_size=10000,
+        batch_size=1000,
         nb_epoch=1,
         N=1000,
         discount=0.8,
